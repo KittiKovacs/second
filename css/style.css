@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    font-family:'Indie Flower', cursive;
+    color:crimson;
+}
+h1 {
+    color:inherit;
+    text-transform:uppercase;
+}
+
+#menu li {
+    float:left;
+    margin-right:120px;
+    list-style-type: none;
+    line-height:25px;
+}
+#menu a {
+    text-decoration:none;
+    color:coral; 
+}
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+#rabbit-image {
+    background:url(https://www.feelgoodcontacts.com/blog/blogimages/374-uk.jpg) no-repeat center center;
+}
+#rabbit-background{
+    height:600px;
+    width:100%;
+    overflow:hidden;
+}
