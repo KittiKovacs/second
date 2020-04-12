@@ -7,29 +7,97 @@ body{
     font-family:'Indie Flower', cursive;
     color:crimson;
 }
-h1 {
+#logo {
     color:inherit;
     text-transform:uppercase;
+    font-size:50px;
+    position:relative;
+    margin-left:50px;
+    margin-top:30px;
+    padding-top:10px;
+    border-bottom:1px solid crimson;
 }
+#menu{
+    list-style-type: none;
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing:4px;
+    padding-top:0px;
 
+}
+#logo #menu{
+    line-height:75px;
+}
 #menu li {
     float:left;
-    margin-right:120px;
-    list-style-type: none;
-    line-height:25px;
+    margin-top:20px;
+    margin-right: 50px;
 }
-#menu a {
+#menu a{
     text-decoration:none;
     color:coral; 
 }
-#menu a:hover {
+#menu a:hover{
     border-bottom: 1px solid #777777;
 }
 #rabbit-image {
-    background:url(https://www.feelgoodcontacts.com/blog/blogimages/374-uk.jpg) no-repeat center center;
+    height:500px;
+    width:110%;
+    background: url("https://www.feelgoodcontacts.com/blog/blogimages/374-uk.jpg") no-repeat center center;
 }
 #rabbit-background{
     height:600px;
     width:100%;
     overflow:hidden;
+    position: relative;
+}
+#poem{
+    margin-left: 40%;
+    font-size: 120%;
+    text-align:center;
+    width:25%;
+}
+#title{
+    margin-bottom:10px;
+}
+
+.activities{
+    float:left;
+    margin-top:20px;
+    font-size:120%;
+    position: relative;
+    color:inherit;
+    text-decoration:none;
+}
+.activities a:hover {
+    border-bottom: 1px solid #777777;
+}
+#barbecue-image{
+    height:20px;
+    width:100%;
+    background: url("https://stockyardssteaks.files.wordpress.com/2013/05/backyard-barbecue.jpg") no-repeat center center;
+    float:left;
+}
+#boardgames-image{
+    height:20px;
+    width:100%;
+    background: url("https://cdn.thewirecutter.com/wp-content/uploads/2018/03/boardgamesforadults-2x1-7452.jpg") no-repeat center center;
+    float:left;
+}
+#egghunt-image{
+    height:20px;
+    width:100%;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/girl-finding-easter-eggs-royalty-free-image-1582235971.jpg?crop=0.639xw:1.00xh;0,0&resize=640:*") no-repeat center center;
+    float:left;
+}
+#veg-image{
+    height:20px;
+    width:100%;
+    background: url("https://intermountainhealthcare.org/-/media/images/modules/blog/posts/2019/04/prepare-for-your-summer-garden-now.jpg?mw=1600") no-repeat center center;
+    float:left;
+
+}
+#IMDB{
+    margin-top:20px;
+    margin-bottom:5px;
 }
